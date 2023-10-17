@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Template</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link rel="stylesheet" href="assets/fonts/stylesheet.css">
+    <link rel="stylesheet" href="assets/resources/slick/slick.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+</head>
+<body>
+
+    <!-- header  -->
+    <header class="py-[30px] lg:py-[75px]">
+        <div class="container">
+            <div class="grid grid-cols-[7fr_5fr] gap-4 items-center">
+                <div class="flex items-end">
+                    <div class="mr-[80px]">
+                        <a href="#" class="logo block">
+                            <img class="max-w-[60px] lg:max-w-[200px]" src="assets/images/logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="lg:block hidden ">
+                        <ul class="ml-auto lg:flex space-x-[20px] xl:space-x-[50px] text-[16px] font-inter font-medium text-[#969696]">
+                            <li><a class="transition hover:text-white" href="#">Discover</a></li>
+                            <li><a class="transition hover:text-white"href="#">crew</a></li>
+                            <li><a class="transition hover:text-white" href="#">Unity</a></li>
+                            <li><a class="transition hover:text-white" href="#">Download</a></li>
+                            <li><a class="transition hover:text-white" href="#">portfolio</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="text-end lg:block hidden">
+                    <h6 class="font-mont text-[16px] font-bold uppercase text-white inline-flex"><svg class="text-[24px] mr-[5px] text-[#FFBD3C]" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M848 359.3H627.7L825.8 109c4.1-5.3.4-13-6.3-13H436c-2.8 0-5.5 1.5-6.9 4L170 547.5c-3.1 5.3.7 12 6.9 12h174.4l-89.4 357.6c-1.9 7.8 7.5 13.3 13.3 7.7L853.5 373c5.2-4.9 1.7-13.7-5.5-13.7zM378.2 732.5l60.3-241H281.1l189.6-327.4h224.6L487 427.4h211L378.2 732.5z"></path></svg> total satisfied customers</h6>
+                    <h3 class="font-mont text-[32px] italic">5,139</h3>
+                </div>
+                <div class="ml-auto text-2xl lg:hidden w-[50px] h-[45px] bg-custom-blue flex items-center justify-center">
+                    <span class="menu-trigger cursor-pointer"><i class="text-white fa-solid fa-bars"></i></span>
+                    <span class="menu-close cursor-pointer hidden"><i class="text-white fa-solid fa-xmark"></i></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="offcanvas-header bg-[#121212] fixed z-50 h-full top-0 w-[250px] left-[-250px] duration-500">
+        <div class="container">
+            <ul class="ml-auto space-y-3 text-[16px] font-bold text-white pt-[50px]">
+                <li><a class="transition hover:text-white" href="#">Discover</a></li>
+                <li><a class="transition hover:text-white"href="#">crew</a></li>
+                <li><a class="transition hover:text-white" href="#">Unity</a></li>
+                <li><a class="transition hover:text-white" href="#">Download</a></li>
+                <li><a class="transition hover:text-white" href="#">portfolio</a></li>
+            </ul>
+            <div class="mt-[30px]">
+                <h6 class="font-mont text-[14px] font-bold uppercase text-white inline-flex"><svg class="text-[24px] mr-[5px] text-[#FFBD3C]" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M848 359.3H627.7L825.8 109c4.1-5.3.4-13-6.3-13H436c-2.8 0-5.5 1.5-6.9 4L170 547.5c-3.1 5.3.7 12 6.9 12h174.4l-89.4 357.6c-1.9 7.8 7.5 13.3 13.3 7.7L853.5 373c5.2-4.9 1.7-13.7-5.5-13.7zM378.2 732.5l60.3-241H281.1l189.6-327.4h224.6L487 427.4h211L378.2 732.5z"></path></svg> total satisfied customers</h6>
+                <h3 class="font-mont text-[28px] italic ml-[30px]">5,139</h3>
+            </div>
+        </div>
+   </div>
+
+    <!-- banner section  -->
+    <section class="pb-[75px]">
+        <div class="container">
+            <div class="grid lg:grid-cols-2 rounded-[10px] relative pl-[30px] lg:pl-[0] pr-[30px] lg:pr-[100px] pb-[30px] lg:-[0] z-10" style="background: linear-gradient(105deg, #07344D 3.38%, #000 107.29%);">
+                <div class="block">
+                    <img class="lg:hidden" src="assets/images/banner-thumb.png" alt="">
+                </div>
+                <div class="text-center">
+                    <img class="lg:mt-[40px] mb-[30px] lg:mb-[90px] mx-auto" src="assets/images/logo2.png" alt="">
+                    <h1 class="text-[28px] sm:text-[32px] md:text-[40px] leading-[1.2] mb-[30px] lg:mb-[100px]">Download the Intrigue System 
+                        demo for try to awesome tool!</h1>
+                    <a href="#" class="bg-[#F5F5F5] text-[#3C3C3C] rounded-[5px] uppercase inline-flex items-center px-[20px] py-[10px] text-left"><svg class="text-[24px] mr-[10px]" stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg> DOWNLOAd INTRIGUE Demo</a>
+                    <div class="my-[30px] lg:my-[100px] ">
+                        <a href="#" class="text-[16px] uppercase text-white/50 underline">unity store page</a>
+                    </div>
+                </div>
+                <img class="absolute h-auto max-w-[100%] -z-10 hidden lg:block" src="assets/images/banner-thumb.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="pb-[80px] lg:pb-[120px]">
+        <div class="container">
+            <div class="rounded-[10px] relative pr-[120px] py-[80px] lg:py-[110px] text-end" style="background-image: url(assets/images/cta-bg.png); background-size: cover; background-position: center;">
+                <a href="#" class="text-[16px] uppercase">Contact with developers</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- All js here -->
+    <script src="assets/resources/jquery/jquery-3.6.0-min.js"></script>
+    <script src="assets/resources/slick/slick.js"></script>
+    <!-- custom js -->
+    <script src="assets/js/main.js "></script>
+</body>
+</html>
