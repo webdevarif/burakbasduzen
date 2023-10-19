@@ -710,6 +710,34 @@ h1, h2, h3, h4, h5 {
   margin-top: 80px;
 }
 
+.-mb-\[35px\] {
+  margin-bottom: -35px;
+}
+
+.-mb-\[5px\] {
+  margin-bottom: -5px;
+}
+
+.-mb-\[7px\] {
+  margin-bottom: -7px;
+}
+
+.-mb-\[10px\] {
+  margin-bottom: -10px;
+}
+
+.-mb-\[6px\] {
+  margin-bottom: -6px;
+}
+
+.-mb-\[12px\] {
+  margin-bottom: -12px;
+}
+
+.-mb-\[8px\] {
+  margin-bottom: -8px;
+}
+
 .block {
   display: block;
 }
@@ -1126,6 +1154,14 @@ h1, h2, h3, h4, h5 {
   line-height: 1.5;
 }
 
+.leading-\[1\] {
+  line-height: 1;
+}
+
+.leading-\[1\.5\] {
+  line-height: 1.5;
+}
+
 .tracking-\[\.8px\] {
   letter-spacing: .8px;
 }
@@ -1386,6 +1422,16 @@ h1, h2, h3, h4, h5 {
   .lg\:py-\[75px\] {
     padding-top: 75px;
     padding-bottom: 75px;
+  }
+
+  .lg\:py-\[60px\] {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .lg\:py-\[50px\] {
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 
   .lg\:pb-\[120px\] {
